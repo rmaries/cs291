@@ -131,7 +131,11 @@ function createHead() {
   cylinder.position.y = 595;
   cylinder.position.z = 0;
   scene.add( cylinder );
-
+  var cylinder = new THREE.Mesh( new THREE.CylinderGeometry( 40, 40, 70, 32 ), cylinderMaterial );
+  cylinder.position.x = 0;
+  cylinder.position.y = 635;
+  cylinder.position.z = 0;
+  scene.add( cylinder );
 }
 
 function createDrinkingBird() {
