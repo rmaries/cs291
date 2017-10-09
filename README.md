@@ -22,3 +22,6 @@ Changes that affect this code base, between the current three.js code, r58, and 
 * renderer.setClearColorHex should be changed to renderer.setClearColor (this is not backwards compatible).
 * OrbitAndPanControls.js: use OrbitAndPanControls.new.js for three.js r58 on.
 
+#Bare Fork
+
+This repo is the bare fork of [cs291](https://github.com/udacity/cs291)
