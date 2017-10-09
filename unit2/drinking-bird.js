@@ -111,7 +111,7 @@ function createBody() {
   scene.add( sphere );
   var cylinder = new THREE.Mesh( new THREE.CylinderGeometry( 12, 12, 390, 32 ), cylinderMaterial );
   cylinder.position.x = 0;
-  cylinder.position.y = 320;
+  cylinder.position.y = 340;
   cylinder.position.z = 0;
   scene.add( cylinder );
 
@@ -126,6 +126,11 @@ function createHead() {
   sphere.position.y = 550;
   sphere.position.z = 0;
   scene.add( sphere );
+  var cylinder = new THREE.Mesh( new THREE.CylinderGeometry( 71, 71, 10, 32 ), cylinderMaterial );
+  cylinder.position.x = 0;
+  cylinder.position.y = 595;
+  cylinder.position.z = 0;
+  scene.add( cylinder );
 
 }
 
